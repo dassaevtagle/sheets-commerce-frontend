@@ -14,7 +14,7 @@
           <Button
             class="snipcart-add-item"
             data-item-max-quantity=1
-            :data-item-url="`${config.API_URL}/api/sheets/${sheet.data.id}`"
+            :data-item-url="`${config.PRODUCTION_FRONTEND_URL}/sheets/${sheet.data.id}`"
             :data-item-id="sheet.data.id"
             :data-item-price="sheet.data.attributes.Price"
             :data-item-description="sheet.data.attributes.Description"
