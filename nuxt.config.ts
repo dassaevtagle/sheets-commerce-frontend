@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   publicRuntimeConfig: {
     API_URL: process.env.API_URL
   },
-  target: 'static',
   meta: {
     link: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
